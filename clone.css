@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*user styling
+*/
+
+#header {
+	height:60px;
+	padding:12px;
+}
+
+#nav {
+	position:relative;
+}
+
+#nav li {
+	float:right;
+	margin:10px;
+}
+
+#SignIn {
+		height:12px;
+		width:70px;
+		background:linear-gradient(to bottom, #4487FC, #4285F4);
+		border-radius:2px;
+		font-family:sans-serif;
+		font-weight:600;
+		font-size:13px;
+		padding-top:8px;
+		padding-bottom:22px;
+		color:white;
+		margin-top:-10px;
+}
+
+#grid {
+	height:45%;
+	width:auto;
+	margin-top:-5px;
+}
+
+#container {	
+}
+
+#google {
+	height:auto;
+	width:28%;
+	display:block;
+	margin: 140px auto;
+}
+
+#searchbox {
+	height:30px;
+	width:60%;
+	display:block;
+	margin:0 auto;
+	margin-top:-115px;
+	border-radius:3px;
+}
+
+#mic {
+	background:url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/microphone.png") no-repeat:right;
+}
+
+#myButtons {
+	display:block;
+	text-align:center;
+	padding:30px;
+}
+
+.footer {
+	margin-top:500px;
+	display:inline;
+}
+
+.LeftLinks {
+	margin-top:120px;
+	float:left;
+	padding-left:20px;
+}
+
+.RightLinks {
+	margin-top:120px;
+	float:right;
+	padding-right:20px;
+}
+
+.LeftLinks li {
+	display:inline;
+}
+
+.RightLinks li {
+	display:inline;
+}
