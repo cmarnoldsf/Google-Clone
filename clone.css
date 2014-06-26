@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	color: #666;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,6 +51,10 @@ table {
 /*user styling
 */
 
+body {
+	font-family: sans-serif;
+}
+
 #header {
 	height:60px;
 	padding:12px;
@@ -62,6 +67,7 @@ table {
 #nav li {
 	float:right;
 	margin:10px;
+	color: #404040;
 }
 
 #SignIn {
@@ -85,11 +91,14 @@ table {
 }
 
 #container {	
+	height: auto;
+	margin: 0px 0px -38px 0px;
+	min-height: 64%;
 }
 
 #google {
 	height:auto;
-	width:28%;
+	width:26%;
 	display:block;
 	margin: 140px auto;
 }
@@ -110,24 +119,35 @@ table {
 #myButtons {
 	display:block;
 	text-align:center;
-	padding:30px;
+	padding:20px;
+}
+
+#button {
+	height: 27px;
+	margin: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #444;
 }
 
 .footer {
-	margin-top:500px;
-	display:inline;
+	position: relative;
+	background-color: #F2F2F2;
+	height: 37px;
+	border-top: 1px solid #E6E6E6;
+	min-width: 950px;
 }
 
 .LeftLinks {
-	margin-top:120px;
 	float:left;
-	padding-left:20px;
+	margin-top: 12px;
+	margin-left: 30px;	
 }
 
 .RightLinks {
-	margin-top:120px;
 	float:right;
-	padding-right:20px;
+	margin-top: 12px;
+	margin-right: 30px;
 }
 
 .LeftLinks li {
@@ -136,4 +156,8 @@ table {
 
 .RightLinks li {
 	display:inline;
+}
+
+a {
+	margin: 10px;
 }

@@ -1,0 +1,222 @@
+/* BAVC QUIZ MAIN STYLESHEET
+COLOR DIRECTORY:
+BAVC Green = #A5CD39
+BAVC Orange = #C60
+BAVC Orange Hover = #930
+*/
+
+body#quiz {
+	background:#FFF url(../quiz/images/tile-nav-history.gif) repeat-x;
+	font-size:62.5%;
+	}
+	
+body#quiz a {
+	color:#C60;
+}
+
+body#quiz a:hover {
+	color:#930;
+}
+
+.quiz-el {
+	background: #A6CE39;
+	font-size: 1.3em;
+	font-family: Lucida Grande,Helvetica,Arial,Verdana,sans-serif;
+	position: relative;
+	padding: 0.2em;
+	width: 700px;
+	margin:0 auto;
+}
+
+#directory {
+	background: #FFF;
+	border:2px solid #A6CE39;
+	font-size: 1.3em;
+	font-family: Lucida Grande,Helvetica,Arial,Verdana,sans-serif;
+	position: relative;
+	padding: .5em;
+	width: 700px;
+	margin:0 auto;
+}
+
+#directory a {
+	margin:0 0 .5em 0;
+	display:block;
+}
+
+.logo {
+	margin:0 0 .5em 0;
+}
+
+.quiz-el div{
+	padding: 0.7em;
+}
+
+.quiz-el input{
+	font-size: 1.1em;
+	color:#C60;
+	background:none;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	margin-right:5px;
+}
+
+/* .q-innerArea = .q-header, .q-help, .q-prob, .q-intro, .q-gameOver */
+.q-innerArea{
+	background: #fff;
+	position:relative;
+	clear: both;
+	color: black;
+}
+
+.q-header, .q-help, .q-review-menu {
+	border-bottom: 1px dotted #B2B2B2;
+}
+
+.q-intro{
+	padding: 0.2em;
+}
+
+.q-title{
+	overflow: hidden;
+	width: 80%;
+	margin: 0;
+	height:50px;
+	background:url(../quiz/images/logo.gif) no-repeat;
+}
+
+/*This is a hack, because IE fails on float:right.*/
+.q-counter{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	margin: 1%;
+	padding: 0%;
+}
+
+.q-counter{
+	float: right;
+}
+
+.q-help{
+	position: relative;
+	clear:both;
+}
+
+/*.q-probArea = .q-ques, .q-ansSel, .q-result */
+.q-probArea{
+	border-bottom: 1px dotted #B2B2B2;
+	font-size: 1.2em;
+	position: relative;
+}
+
+.q-help-menu{
+	width: 97%;
+}
+
+.q-help-info{
+	clear:both;
+}
+
+.q-quit-area, .q-review-arrows{
+	display: inline;
+	width: auto;
+}
+
+.q-quit-area{
+	float: right;
+}
+
+.q-review-arrows{
+	position: relative;	/*IE hack.*/
+	width: 2.3em;
+}
+
+.q-center{
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.q-gameOver .q-statTotal{
+	color: #C60;
+}
+
+.q-quesInput{
+	width: 95%;
+}
+
+.q-ol{
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	padding: 0;
+	margin: 0;
+	color:#000;
+}
+
+.q-ol-li{
+	margin: 0.4em auto 0.4em auto;
+}
+
+.q-ol-hover{
+	color:#930;
+}
+
+.q-ol-active{
+	color: #930;
+}
+
+/*IE displays the wrong width for <select> tags.*/
+.q-select{
+	width : 80%;
+}
+
+.q-select{
+	font-size: 0.8em;
+	width: 100%;
+}
+
+.q-timer-area{
+	display:block;
+	text-align:center;
+	width: auto;
+}
+
+.q-review-menu{
+	text-align: center;
+	width: auto;
+}
+
+.q-reviewBar-btns{
+	position: relative;
+	display: inline-block;
+	width: 49%;
+}
+
+.q-rightArrow{
+	float:right;
+}
+
+.q-leftArrow{
+	float:left;
+}
+
+.q
+-timer-area{
+	line-height: 0;
+	height:0;
+}
+
+.q-check-btn {
+	background:url(../quiz/images/input-bg.jpg) no-repeat !important;
+	text-transform:uppercase;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	color:#FFF !important;
+	width:85px;
+	height:21px;
+	font-size:.9em;
+}
